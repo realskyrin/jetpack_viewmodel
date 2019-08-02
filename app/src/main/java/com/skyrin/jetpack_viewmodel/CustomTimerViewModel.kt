@@ -23,6 +23,10 @@ class CustomTimerViewModel : ViewModel() {
         }, ONE_SECOND, ONE_SECOND)
     }
 
+    fun resetTime(){
+        startTime = SystemClock.elapsedRealtime()
+    }
+
     companion object {
         const val ONE_SECOND = 1000L
     }

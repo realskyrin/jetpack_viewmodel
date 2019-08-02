@@ -16,7 +16,7 @@ class CustomTimerActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.custom_timer)
+        setContentView(R.layout.activity_custom_timer)
 
         val tvTimer = findViewById<TextView>(R.id.tv_timer)
 

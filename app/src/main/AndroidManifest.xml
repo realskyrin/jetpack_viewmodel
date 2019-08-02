@@ -13,6 +13,9 @@
 
         </activity>
         <activity android:name=".CustomTimerActivity">
+
+        </activity>
+        <activity android:name=".ShareTimeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
